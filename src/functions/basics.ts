@@ -1,5 +1,8 @@
+
+
 export default function main () {
-  console.log('demo')
+  const name = 'Mauricio Matias'
+  console.log(name)
 }
 
 // Layer
