@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "transform": "npx tsc ./src/**/*.ts --target es6 --outDir dist"
+    "build": "npx tsc ./src/*.ts --target es6 --outDir dist",
+    "start": "node ./dist/main.js"
   },
   "keywords": [],
   "author": "Mauricio Matias",
